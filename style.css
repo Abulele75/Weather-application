@@ -1,3 +1,18 @@
 body {
     background-color: rgb(78, 78, 78);
+    font-family: "Roboto", sans-serif;
+}
+.application {
+    background: black;
+    max-width: 600px;
+    margin: 45px auto;
+    padding : 30px;
+   border-radius: 15px;;
+    height: 600px;
+    box-shadow : 0 30px 50px 
+    rgb(65, 58, 109, 0,08);
+
+}
+.content {
+    color: white;
 }
