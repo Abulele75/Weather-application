@@ -16,3 +16,11 @@ body {
 .content {
     color: white;
 }
+.input-form {
+    background-color: rgb(15, 130, 165);
+    border : none;
+
+    width: 65%;
+    padding : 20px;
+    color: white;
+}
