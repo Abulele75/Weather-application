@@ -16,11 +16,28 @@ body {
 .content {
     color: white;
 }
+header {
+    border-bottom: ipx solid   rgb(78, 78, 78);
+    padding : 0 0 30px 0;
+}
 .input-form {
     background-color: rgb(15, 130, 165);
     border : none;
-
+border-radius: 3px;
     width: 65%;
-    padding : 20px;
+    padding : 18px;
     color: white;
+}
+input::placeholder {
+    color: white;
+}
+.submit-form {
+    background-color:rgb(15, 130, 165); 
+    padding: 16px;
+    color : white;
+    border: none;
+   width : 17%;
+    margin-left: 5px;
+    border-radius: 3px;
+    
 }
