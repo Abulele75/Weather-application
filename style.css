@@ -11,6 +11,7 @@ body {
  
     box-shadow : 0 30px 50px 
     rgb(65, 58, 109, 0.08);
+    
    
 
 }
@@ -20,6 +21,10 @@ body {
 header {
     border-bottom: 1px solid   rgb(8, 8, 8);
     padding : 0 0 30px 0;
+    position:relative;
+    bottom : 10px;
+   
+  
 }
 .input-form {
     background-color: rgb(15, 130, 165);
@@ -28,6 +33,7 @@ border-radius: 3px;
     width: 65%;
     padding : 18px;
     color: white;
+    margin : 40px;
 }
 input::placeholder {
     color: white;
@@ -38,20 +44,26 @@ input::placeholder {
     color : white;
     border: none;
    width : 17%;
-    margin-left: 5px;
+    margin-left: -35px;
     border-radius: 3px;
     
 }
 footer {
-    
-    padding : 30px 0 0 0;
+  
+    padding: 30px 0 0 0 ;
     text-align: center;
     font-size: 13px;
     color: white;
-    position : relative ;
-   bottom: 120px;
-   border-top: 1px solid   rgb(8, 8, 8);
-   margin : 0;
+    position: relative;
+    bottom : 130px;
+    border-top: 1px solid   rgb(8, 8, 8);
+
+   
+   
+
+    
+   
+   
 }
 a {
     color : rgb(15, 130, 165);
@@ -59,11 +71,14 @@ a {
 .app-content {
     display:flex;
     justify-content: space-between;
+    position : relative;
+    bottom : 45px;
+   
 }
 main { padding : 30px 0;
 }
 .city{
-    margin : 0px;
+    margin: 0px;
     font-size: 38px;
     line-height: 48px;
     color: white;
@@ -80,6 +95,7 @@ main { padding : 30px 0;
     font-size:  16px;
     line-height : 24px;
     font-weight: 500;
+   
 }
 .content strong {
     color : rgb(233, 38, 70)
@@ -104,8 +120,8 @@ main { padding : 30px 0;
     display: flex;
     position: relative;
     left : 100px;
-    bottom : 15px;
+    bottom : 2px;
     color : white;
-    font-size: 70px;
+    font-size: 40px;
 
 }
