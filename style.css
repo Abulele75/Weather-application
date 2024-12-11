@@ -104,13 +104,13 @@ main { padding : 30px 0;
     font-size: 50px ;
   position: relative;
   left : 25px;
-  bottom : 5px;
+  top : 1px;
     font-weight: bold;
 }
 .degrees {
     display: flex;
     position: relative;
-    top : 2px;
+    top : 5px;
     color: white;
     right : 50px;
     font-size: 23px;
